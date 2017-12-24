@@ -40,8 +40,8 @@ export default (grunt) => {
     name: 'kibana',
     description: 'Explore\ and\ visualize\ your\ Elasticsearch\ data',
     site: 'https://www.elastic.co',
-    vendor: 'Elasticsearch,\ Inc.',
-    maintainer: 'Kibana Team\ \<info@elastic.co\>',
+    vendor: 'OpenDataStack',
+    maintainer: 'Riadh Habbachi\ \<habbachi.riadh@gmail.com\>',
     license: 'Apache\ 2.0',
     version: VERSION,
     path: {
