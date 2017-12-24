@@ -9,7 +9,6 @@ import 'ui/autoload/all';
 import 'plugins/kibana/discover/index';
 import 'plugins/kibana/visualize/index';
 import 'plugins/kibana/dashboard/index';
-import 'plugins/kibana/management/index';
 import 'plugins/kibana/doc';
 import 'plugins/kibana/dev_tools';
 import 'plugins/kibana/context';
