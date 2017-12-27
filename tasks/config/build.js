@@ -19,5 +19,5 @@ export default (grunt) => {
 };
 
 function buildVersion(isRelease, version) {
-  return isRelease ? `${version}-patched` : `${version}-SNAPSHOT-patched`;
+  return isRelease ? `${version}-opendatastack` : `${version}-SNAPSHOT-opendatastack`;
 }
