@@ -10,7 +10,6 @@ import './home';
 import './discover';
 import './visualize';
 import './dashboard';
-import './management';
 import './doc';
 import './dev_tools';
 import './context';
