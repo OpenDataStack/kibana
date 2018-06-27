@@ -1,8 +1,8 @@
 import chalk from 'chalk';
 
 export function createBuild({ config, oss }) {
-  const name = oss ? 'kibana-oss' : 'kibana';
-  const logTag = oss ? chalk`{magenta [kibana-oss]}` : chalk`{cyan [  kibana  ]}`;
+  const name = oss ? 'kibana-opendatastack-oss' : 'kibana-opendatastack';
+  const logTag = oss ? chalk`{magenta [kibana-opendatastack-oss]}` : chalk`{cyan [  kibana-opendatastack  ]}`;
 
   return new class Build {
     isOss() {
