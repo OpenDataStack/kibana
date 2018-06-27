@@ -35,5 +35,5 @@ KuiToolBarSearchBox.propTypes = {
 };
 
 KuiToolBarSearchBox.defaultProps = {
-  placeholder: 'Search...'
+  placeholder: 'Buscar...'
 };

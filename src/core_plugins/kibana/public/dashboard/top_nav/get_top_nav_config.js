@@ -62,7 +62,7 @@ function getEditConfig(action) {
  */
 function getSaveConfig() {
   return {
-    key: 'save',
+    key: 'guardar',
     description: 'Save your dashboard',
     testId: 'dashboardSaveMenuItem',
     template: require('plugins/kibana/dashboard/top_nav/save.html')
@@ -74,7 +74,7 @@ function getSaveConfig() {
  */
 function getViewConfig(action) {
   return {
-    key: 'cancel',
+    key: 'cancelar',
     description: 'Cancel editing and switch to view-only mode',
     testId: 'dashboardViewOnlyMode',
     run: action

@@ -9,7 +9,7 @@
       role="heading"
       aria-level="1"
     >
-      Dashboard
+      Tablero
     </div>
   </div>
 </kbn-top-nav>
@@ -37,7 +37,7 @@
           <input
             class="kuiToolBarSearchBox__input"
             type="text"
-            placeholder="Search..."
+            placeholder="Buscar..."
             aria-label="Filter dashboards"
             data-test-subj="searchFilter"
             ng-model="listingController.filter"
@@ -106,7 +106,7 @@
     >
       <div class="kuiEmptyTablePrompt">
         <div class="kuiEmptyTablePrompt__message">
-          Looks like you don&rsquo;t have any dashboards. <span ng-if="!listingController.hideWriteControls">Let&rsquo;s create some!</span>
+          Parece que no tienes ningún tablero. <span ng-if="!listingController.hideWriteControls">Vamos a crear algunos!</span>
         </div>
 
         <div class="kuiEmptyTablePrompt__actions" ng-if="!listingController.hideWriteControls">
@@ -117,7 +117,7 @@
           >
             <span class="kuiButton__inner">
               <span class="kuiButton__icon kuiIcon fa-plus"></span>
-              <span>Create a dashboard</span>
+              <span>Crear un tablero</span>
             </span>
           </a>
         </div>

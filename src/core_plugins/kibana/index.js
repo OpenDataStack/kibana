@@ -69,21 +69,21 @@ export default function (kibana) {
       links: [
         {
           id: 'kibana:discover',
-          title: 'Discover',
+          title: 'Descubrir',
           order: -1003,
           url: `${kbnBaseUrl}#/discover`,
           description: 'interactively explore your data',
           icon: 'plugins/kibana/assets/discover.svg',
         }, {
           id: 'kibana:visualize',
-          title: 'Visualize',
+          title: 'Visualizar',
           order: -1002,
           url: `${kbnBaseUrl}#/visualize`,
           description: 'design data visualizations',
           icon: 'plugins/kibana/assets/visualize.svg',
         }, {
           id: 'kibana:dashboard',
-          title: 'Dashboard',
+          title: 'Tablero',
           order: -1001,
           url: `${kbnBaseUrl}#/dashboards`,
           // The subUrlBase is the common substring of all urls for this app. If not given, it defaults to the url

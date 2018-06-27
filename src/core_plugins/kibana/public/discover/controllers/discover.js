@@ -147,22 +147,22 @@ function discoverController(
   };
 
   $scope.topNavMenu = [{
-    key: 'new',
+    key: 'nuevo',
     description: 'New Search',
     run: function () { kbnUrl.change('/discover'); },
     testId: 'discoverNewButton',
   }, {
-    key: 'save',
+    key: 'guardar',
     description: 'Save Search',
     template: require('plugins/kibana/discover/partials/save_search.html'),
     testId: 'discoverSaveButton',
   }, {
-    key: 'open',
+    key: 'abrir',
     description: 'Open Saved Search',
     template: require('plugins/kibana/discover/partials/load_search.html'),
     testId: 'discoverOpenButton',
   }, {
-    key: 'share',
+    key: 'compartir',
     description: 'Share Search',
     template: require('plugins/kibana/discover/partials/share_search.html'),
     testId: 'discoverShareButton',

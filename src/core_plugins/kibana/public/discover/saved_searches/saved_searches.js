@@ -19,8 +19,8 @@ module.service('savedSearches', function (Promise, config, kbnIndex, createNotif
   // Customize loader properties since adding an 's' on type doesn't work for type 'search' .
   savedSearchLoader.loaderProperties = {
     name: 'searches',
-    noun: 'Saved Search',
-    nouns: 'saved searches'
+    noun: 'búsqueda guardada',
+    noun: 'búsquedas guardadas'
   };
 
   savedSearchLoader.urlFor = function (id) {

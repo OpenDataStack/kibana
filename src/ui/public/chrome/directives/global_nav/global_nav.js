@@ -27,7 +27,7 @@ module.directive('globalNav', (globalNavState, chrome) => {
         scope.isGlobalNavOpen = isOpen;
         scope.globalNavToggleButton = {
           classes: isOpen ? 'global-nav-link--close' : undefined,
-          title: isOpen ? 'Collapse' : 'Expand',
+          title: isOpen ? 'Colapso' : 'Expandir',
           tooltipContent: isOpen ? 'Collapse side bar' : 'Expand side bar',
         };
 

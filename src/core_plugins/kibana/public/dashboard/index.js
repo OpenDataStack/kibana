@@ -92,7 +92,7 @@ uiRoutes
 FeatureCatalogueRegistryProvider.register(() => {
   return {
     id: 'dashboard',
-    title: 'Dashboard',
+    title: 'Tablero',
     description: 'Display and share a collection of visualizations and saved searches.',
     icon: '/plugins/kibana/assets/app_dashboard.svg',
     path: `/app/kibana#${DashboardConstants.LANDING_PAGE_PATH}`,

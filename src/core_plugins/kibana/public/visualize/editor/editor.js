@@ -94,7 +94,7 @@ function VisEditor($scope, $route, timefilter, AppState, $window, kbnUrl, courie
   $scope.vis = vis;
 
   $scope.topNavMenu = [{
-    key: 'save',
+    key: 'guardar',
     description: 'Save Visualization',
     template: require('plugins/kibana/visualize/editor/panels/save.html'),
     testId: 'visualizeSaveButton',
@@ -107,12 +107,12 @@ function VisEditor($scope, $route, timefilter, AppState, $window, kbnUrl, courie
       }
     }
   }, {
-    key: 'share',
+    key: 'compartir',
     description: 'Share Visualization',
     template: require('plugins/kibana/visualize/editor/panels/share.html'),
     testId: 'visualizeShareButton',
   }, {
-    key: 'refresh',
+    key: 'refrescar',
     description: 'Refresh',
     run: function () {
       vis.forceReload();

@@ -17,10 +17,10 @@ export function NoVisualizationsPrompt() {
             buttonType="primary"
             icon={<KuiButtonIcon type="create"/>}
           >
-            Create a visualization
+            Crear una visualización
           </KuiLinkButton>
         }
-        message="Looks like you don't have any visualizations. Let's create some!"
+        message="Parece que no tienes ninguna visualización. Vamos a crear algunas!"
       />
     </KuiEmptyTablePromptPanel>
   );
