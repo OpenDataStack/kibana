@@ -16,12 +16,12 @@ const CATEGORY = {
 };
 
 const CATEGORY_DISPLAY_NAMES = {
-  [CATEGORY.BASIC]: 'Basic Charts',
-  [CATEGORY.DATA]: 'Data',
+  [CATEGORY.BASIC]: 'Gráficos básicas',
+  [CATEGORY.DATA]: 'Datos',
   [CATEGORY.GRAPHIC]: 'Graphic',
-  [CATEGORY.MAP]: 'Maps',
-  [CATEGORY.OTHER]: 'Other',
-  [CATEGORY.TIME]: 'Time Series'
+  [CATEGORY.MAP]: 'Gráficos de mapas',
+  [CATEGORY.OTHER]: 'Otros',
+  [CATEGORY.TIME]: 'Series de Tiempo'
 };
 
 export { CATEGORY, CATEGORY_DISPLAY_NAMES };
